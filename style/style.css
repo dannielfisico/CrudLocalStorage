@@ -19,7 +19,7 @@ header, footer {
 
 main {
     flex-grow: 1;
-
+    position: relative;
 }
 
 .container  {
@@ -30,6 +30,27 @@ main {
     padding: 10px;
 }
 
-table{
-    border: 1px solid green;
+th, td{
+    padding: 5px;
+    background-color: rgb(148, 192, 192);
+}
+
+.modal {
+    border: 1px solid red;
+    padding: 10px;
+    position: absolute;
+    top: 50px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.form label {
+    font-weight: bold;
+    margin-bottom: .3em;
+    display: inline-block;
+}
+
+.form input {
+    display: inline;
 }
